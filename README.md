@@ -56,7 +56,7 @@ To run this project locally, follow these steps:
    git clone https://github.com/ZainUlWahab/speaker-age-prediction.git
    cd speaker-age-prediction
 
-3. MAKE SURE TO UNZIP THE 'dataset.zip' if you want to extract the features again. I have attached the extracted features in 3 seperate files called 'testing_data_features.xlsx', 'training_data_features.xlsx' and 'truncated.csv'.
+3. MAKE SURE TO UNZIP THE 'dataset.zip' if you want to extract the features again. I have attached the extracted features in 2 seperate files called 'testing_data_features.xlsx', 'training_data_features.xlsx'.
     
 4. Run the Jupyter notebook:
    ```bash
