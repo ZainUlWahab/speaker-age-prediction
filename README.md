@@ -2,6 +2,25 @@
 
 This project aims to predict the age of speakers based on audio features extracted from a large dataset using a linear regression model. The workflow involves data extraction, preprocessing, visualization, normalization, and model comparison. 
 
+# Table of Contents
+
+- [Project Overview](#project-overview)
+- [Dataset](#dataset)
+- [Workflow](#workflow)
+  - [Feature Extraction](#feature-extraction)
+  - [Data Formatting](#data-formatting)
+  - [Data Preprocessing](#data-preprocessing)
+    - [Handling Missing Values](#handling-missing-values)
+  - [Data Visualization](#data-visualization)
+  - [Normalization](#normalization)
+  - [Model Development](#model-development)
+  - [Model Evaluation](#model-evaluation)
+- [Results](#results)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributions](#contributions)
+- [License](#license)
+
 ## Project Overview
 
 The project involves predicting the age of speakers from audio files by applying a linear regression model. The approach includes custom implementations of linear regression and various preprocessing techniques, followed by comparisons with scikit-learn's built-in models.
@@ -35,14 +54,33 @@ The project involves predicting the age of speakers from audio files by applying
 
 The project compares the performance of different preprocessing methods and models, assessing their effectiveness in predicting speaker age. The results include performance metrics and visualizations to demonstrate the impact of various techniques on model accuracy.
 
+### Installation
 
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ZainUlWahab/speaker-age-prediction.git
+   cd speaker-age-prediction
+
+3. MAKE SURE TO UNZIP THE 'dataset.zip' if you want to extract the features again. I have attached the extracted features in 3 seperate files called 'testing_data_features.xlsx', 'training_data_features.xlsx' and 'truncated.csv'.
+    
+4. Run the Jupyter notebook:
+   ```bash
+   jupyter notebook
+
+5. Open the speaker-age-prediction.ipynb notebook and run the cells.
+   
+7. If you don't want to extract the features again make sure to run the cells only after the heading "Run from here pls"
+   
 ### Usage
 
-To use this project, follow the steps outlined in the provided code to load the data, preprocess it, train the models, and evaluate their performance. Instructions for running the project will be included in the code documentation.
+To use this project, follow the steps outlined in the provided code to load the data, preprocess it, train the models, and evaluate their performance. Everything is explained in the jupyter notebook.
 
 ### Contributions
 
-Contributions to this project are welcome. If you have suggestions for improvements or encounter any issues, please submit a pull request or open an issue on GitHub.
+Contributions to this project are welcome! If you have suggestions for improvements or encounter any issues, please submit a pull request, open an issue on GitHub or you can contact me on my email 'ulwahabzain@gmail.com'.
 
 ### License
 
